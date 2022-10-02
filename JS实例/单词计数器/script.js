@@ -9,7 +9,7 @@ const settings = document.getElementById('settings');
 const settingsForm = document.getElementById('settings-form');
 const difficultySelect = document.getElementById('difficulty');
 
-// 设置按钮
+// 设置按钮  切换类名
 settingsBtn.addEventListener('click', () => settings.classList.toggle('hide'));
 
 settingsForm.addEventListener('change', e => {
